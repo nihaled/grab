@@ -1,0 +1,30 @@
+@font-face {
+    font-family: GothamBlack;
+    src: url(Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(GothamBook.ttf);
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url(GothamBold.ttf);
+}
+
+.gothamblack {
+    font-family: GothamBlack;
+}
+  
+.gothambold {
+    font-family: GothamBold;
+}
+
+.gothambook {
+    font-family: GothamBook;
+}
+
+.yellow{
+    color: #fad442;
+}
