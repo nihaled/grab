@@ -1,42 +1,60 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 @font-face {
-    font-family: GothamBlack;
-    src: url(Gotham-Black.otf);
+  font-family: GothamBlack;
+  src: url(Gotham-Black.otf);
 }
 
 @font-face {
-    font-family: GothamBook;
-    src: url(GothamBook.ttf);
+  font-family: GothamBook;
+  src: url(GothamBook.ttf);
 }
 
 @font-face {
-    font-family: GothamBold;
-    src: url(GothamBold.ttf);
+  font-family: GothamBold;
+  src: url(GothamBold.ttf);
 }
 
 .gothamblack {
-    font-family: GothamBlack;
+  font-family: GothamBlack;
 }
-  
+
 .gothambold {
-    font-family: GothamBold;
+  font-family: GothamBold;
 }
 
 .gothambook {
-    font-family: GothamBook;
+  font-family: GothamBook;
 }
 
-.yellow{
-    color: #fad442;
+.yellow {
+  color: #fad442;
 }
 
-.fs70{
-    font-size: 70px;
+.fs70 {
+  font-size: 70px;
+}
+
+.fs90 {
+  font-size: 90px;
 }
 
 @media only screen and (max-width: 600px) {
-    .fs70{
-        font-size: 40px;
-    }
+  .fs70 {
+    font-size: 40px;
   }
+}
+
+@media only screen and (max-width: 900px) {
+  .fs90 {
+    font-size: 40px;
+  }
+  .show900{
+    display: block;
+  }
+  .none900{
+    display: none;
+  }
+  
+}
+
