@@ -57,4 +57,13 @@
   }
   
 }
+@media only screen and (min-width: 900px) {
+  .show900{
+    display: none;
+  }
+  .none900{
+    display: block;
+  }
+  
+}
 
